@@ -2,4 +2,5 @@
 check:->
 https://x-scroll.netlify.app/
 
-reference from youtube
+design reference from youtube
+logic reference from codepen
