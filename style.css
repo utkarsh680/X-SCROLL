@@ -232,5 +232,8 @@ html, body{
     width: 100%;
     margin-top: 100px;
 }
+.right{
+    padding: 0px 0px 0px 18px;
+}
     
 }
