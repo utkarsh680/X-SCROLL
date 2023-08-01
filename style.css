@@ -57,6 +57,10 @@ html, body{
     height:calc(100% - 50px);
     position: relative;
     display: flex;
+    overflow-y: scroll;
+}
+.content::-webkit-scrollbar{
+    display: none;
 }
 .left{
     height: 100%;
