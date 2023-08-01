@@ -112,6 +112,7 @@ html, body{
     display: inline-block;
     margin-right: 30px;
     overflow: hidden;
+    cursor: all-scroll;
 }
 
 .elem img{
