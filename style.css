@@ -111,6 +111,7 @@ html, body{
     box-shadow: 0px 5px 10px rgba(0,0,0, 0.3);
     display: inline-block;
     margin-right: 30px;
+    overflow: hidden;
 }
 
 .elem img{
@@ -130,7 +131,7 @@ html, body{
 
 .elem h5 {
     position: absolute;
-    bottom: 10.5%;
+    bottom: 10%;
     right: 0;
     background-color: #030303;
     color: #fff;
@@ -149,4 +150,87 @@ html, body{
 }
 .box::-webkit-scrollbar{
     display: none;
+}
+
+@media screen and (max-width: 1430px){
+    .left h5{
+        font-size: 14px;
+    }
+    
+    .left h1{
+        font-size: 50px;
+    }
+    
+    .left p{
+        font-size: 14px;
+    }
+    
+    .left button {
+        font-size: 13px;
+    }
+    .box{
+        height: 520px;
+        width: 100%;
+        margin-top: 137px;
+        border-radius: 10px;
+        white-space: nowrap;
+        overflow-x: auto;
+    }
+    .nav-part2{
+        display: none;
+    }
+}
+
+@media screen and (max-width:1143px){
+    .left{
+        display: none;
+    }
+    .right{
+        height: 100%;
+        width: 100%;
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width:1095px){
+    .nav-part1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .nav-part1 h4{
+        margin-right: 50px;
+        font-size: 14px;
+        text-transform: uppercase;
+        font-weight: 600;
+    
+    }
+}
+
+@media screen and (max-width:980px){
+    .nav-part1 h4{
+       display: none;
+    }
+   
+.elem {
+    height: 400px;
+    width: 340px;
+}
+
+
+.elem h4 {
+    padding: 12px 24px;
+    font-size: 15px;
+}
+
+.elem h5 {
+    font-size: 13px;
+    padding: 12px 24px;
+}
+.box{
+    height: 440px;
+    width: 100%;
+    margin-top: 100px;
+}
+    
 }
