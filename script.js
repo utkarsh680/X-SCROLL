@@ -1,4 +1,4 @@
-const slider = document.querySelector('.right');
+const slider = document.querySelector('.box');
 let isDown = false;
 let startX;
 let scrollLeft;
@@ -28,7 +28,7 @@ slider.addEventListener('mousemove', (e) => {
 
 // mouse Wheel
 
-const mouseWheel = document.querySelector('.right');
+const mouseWheel = document.querySelector('.box');
 
 mouseWheel.addEventListener('wheel', function(e) {
     const race = 65; // How many pixels to scroll

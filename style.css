@@ -5,12 +5,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-
 }
 html, body{
     height: 100%;
     width: 100%;
+    font-family: sans-serif;
 }
 
 .main{
@@ -98,14 +97,11 @@ html, body{
     height: 100%;
     width: 65%;
     position: relative;
-    padding: 150px;
-    white-space: nowrap;
-    overflow-x: auto;
+    /* white-space: nowrap;
+    overflow-x: auto; */
 }
 
-.right::-webkit-scrollbar{
-    display: none;
-}
+
 .elem {
     height: 520px;
     width: 380px;
@@ -127,14 +123,14 @@ html, body{
     position: absolute;
     bottom: 0;
     right: 0;
-    background-color: #D0D4D5;
+    background-color: #acafaf;
     padding: 17px 34px;
     border-radius: 6px;
 }
 
 .elem h5 {
     position: absolute;
-    bottom: 10%;
+    bottom: 10.5%;
     right: 0;
     background-color: #030303;
     color: #fff;
@@ -142,4 +138,15 @@ html, body{
     font-size: 13px;
     padding: 17px 34px;
     border-radius: 6px;
+}
+.box{
+    height: 520px;
+    width: 100%;
+    margin-top: 155px;
+    border-radius: 10px;
+    white-space: nowrap;
+    overflow-x: auto;
+}
+.box::-webkit-scrollbar{
+    display: none;
 }
